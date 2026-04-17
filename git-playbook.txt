@@ -1,0 +1,48 @@
+# GIT PLAYBOOK
+
+## 🧠 Basic Flow
+
+git add .
+git commit -m "message"
+git push
+
+---
+
+## 🔧 First Time Setup
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin <repo link>
+git push -u origin main
+
+---
+
+## ❌ Common Errors
+
+### error: src refspec main does not match any
+→ Fix:
+git add .
+git commit -m "message"
+
+---
+
+### remote contains work you do not have
+→ Fix:
+git push -u origin main --force
+
+---
+
+### remote origin already exists
+→ Fix:
+git remote remove origin
+git remote add origin <repo link>
+
+---
+
+## 🧠 Notes
+
+- Always commit before push
+- One command per line
+- Git = save system
