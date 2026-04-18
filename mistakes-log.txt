@@ -1,0 +1,32 @@
+# MISTAKES LOG
+
+## 🧠 Git mistakes
+
+- Forgot to commit before push
+- Combined multiple commands in one line
+- Remote already exists error
+
+---
+
+## 🐍 Python mistakes
+
+- missing indentation
+- wrong function arguments
+- forgetting .lower() for comparisons
+
+---
+
+## 🧠 General lessons
+
+- terminal needs ONE command per line
+- debugging is normal
+- errors are part of learning
+
+---
+
+## 🔁 RULE I FOLLOW NOW
+
+If I break something:
+→ I write it here
+→ I learn it once
+→ I don’t repeat it

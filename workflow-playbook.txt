@@ -1,0 +1,59 @@
+# WORKFLOW PLAYBOOK
+
+## 🧠 How I build projects
+
+I follow a simple loop:
+
+---
+
+## 1. PLAN
+
+- What am I building?
+- What is the input?
+- What is the output?
+
+---
+
+## 2. BUILD SMALL
+
+- start with 1 feature
+- test it
+- then add next feature
+
+---
+
+## 3. DEBUG
+
+- read errors slowly
+- fix one thing at a time
+- don’t rush
+
+---
+
+## 4. IMPROVE
+
+- clean code
+- remove duplication
+- make it readable
+
+---
+
+## 5. PUSH
+
+git add .
+git commit -m "message"
+git push
+
+---
+
+## 🧠 RULES
+
+- small steps win
+- working code > perfect code
+- errors = learning
+
+---
+
+## 🚀 GOAL
+
+Become consistent builder, not just learner

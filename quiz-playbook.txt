@@ -1,0 +1,53 @@
+# QUIZ PLAYBOOK
+
+## 🧠 What I am building
+A quiz engine that:
+- loads questions from JSON
+- lets user answer
+- tracks score
+- saves results
+
+---
+
+## 📦 Core Flow
+
+1. Load questions (JSON)
+2. Filter by difficulty
+3. Pick random questions
+4. Ask user input
+5. Check answers
+6. Save results
+
+---
+
+## 🧩 Question Format
+
+{
+  "question": "What is Python?",
+  "answer": ["programming language", "language"],
+  "difficulty": "easy"
+}
+
+---
+
+## 🎯 Key Logic
+
+- Use random.sample() → pick questions
+- Use .lower().strip() → clean input
+- Use list for multiple answers
+
+---
+
+## 🧠 Mistakes I learned
+
+- Forgetting to normalize answers
+- Not handling missing files
+- Not limiting question count
+
+---
+
+## 🚀 Goal
+
+Turn this into:
+- reusable quiz engine
+- multi-language system (Python, JS, C++)

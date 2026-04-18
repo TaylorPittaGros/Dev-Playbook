@@ -1,0 +1,54 @@
+# JSON PLAYBOOK
+
+## 🧠 What is JSON?
+A way to store data.
+
+It is:
+- text-based
+- structured
+- used in Python, JS, APIs
+
+---
+
+## 📦 Example
+
+[
+  {
+    "question": "What is 1+1?",
+    "answer": ["2", "two"],
+    "difficulty": "easy"
+  }
+]
+
+---
+
+## 🧠 Rules
+
+- Always use double quotes ""
+- Must use commas correctly
+- Data is stored in lists or objects
+
+---
+
+## 🔁 In Python
+
+import json
+
+with open("file.json") as f:
+    data = json.load(f)
+
+---
+
+## 🚨 Common mistakes
+
+- missing commas
+- single quotes ❌
+- broken brackets
+
+---
+
+## 🎯 Why I use it
+
+- stores quiz questions
+- easy to edit
+- scalable for multiple topics
